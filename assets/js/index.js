@@ -12,7 +12,7 @@ function sumar() {
     cantidad++;
     cantidadHTML.innerHTML = cantidad;
     totalHTML.innerHTML = precio * cantidad;
-    totalHTML.style.color = "blue";
+    totalHTML.style.color = "cyan";
     totalHTML.style.fontSize = "20px";
 }
 
@@ -21,5 +21,7 @@ function restar() {
         cantidad--;
         cantidadHTML.innerHTML = cantidad;
         totalHTML.innerHTML = precio * cantidad;
+        totalHTML.style.color = "cyan";
+        totalHTML.style.fontSize = "20px";
     }
 }
